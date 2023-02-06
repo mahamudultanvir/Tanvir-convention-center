@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanvir convention center</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+
+  <!-- fontawesome -->
+
+  <script src="https://kit.fontawesome.com/aa323ad745.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- google fond -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-secondary ">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Tanvir convention center</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-white" href="#">Subscribe</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- baner section -->
+
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/banner.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>The perfect venue for your <br> next event</h1>
+            <h3>Choose from one or more of our Idaho wedding
+              venues to customize the occasion of your dreams.</h3>
+            <button class="btn btn-light brand-color fw-bold px-3">
+              <a class="text-decoration-none" target="_blank" href="http://127.0.0.1:5500/index.html"> Book Now</a>
+
+
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner-2.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner-3.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <main>
+      <!-- our package -->
+
+      <section class="container">
+        <h1 class="text-center">Our package</h1>
+
+        <!-- card -->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 container">
+          <div class="col col-lg-3">
+            <div class="">
+              <h1 class="">$900</h1>
+              <h3 class="">Business fair</h3>
+              <p> For most businesses event <br> like book fair, craft fair.</p>
+              <ul class="list-unstyle">
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">limity space access</span>
+                  </i>
+
+                </li>
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">Secuirty facility</span>
+                  </i>
+
+                </li>
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">Event support</span>
+                  </i>
+
+                </li>
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">Decoration design</span>
+                  </i>
+
+                </li>
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">Per day bill</span>
+                  </i>
+                </li>
+              </ul>
+              <div>
+                <button class="btn package-tick rounded-pill px-5 py-2 fw-bold bg-primary-subtle">choose plan</button>
+              </div>
+
+            </div>
+          </div>
+          <div class="col col-lg-3">
+            <div class="">
+              <h1>$900</h1>
+              <h3>Business fair</h3>
+              <p> For most businesses event <br> like book fair, craft fair.</p>
+              <ul class="list-unstyle">
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">limity space access</span>
+                  </i>
+
+                </li>
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">Secuirty facility</span>
+                  </i>
+
+                </li>
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">Event support</span>
+                  </i>
+
+                </li>
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">Decoration design</span>
+                  </i>
+
+                </li>
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">Per day bill</span>
+                  </i>
+                </li>
+              </ul>
+              <div>
+                <button class="btn package-tick rounded-pill px-5 py-2 fw-bold bg-primary-subtle">choose plan</button>
+              </div>
+
+            </div>
+          </div>
+          <div class="col col-lg-3">
+            <div class="">
+              <h1>$900</h1>
+              <h3>Business fair</h3>
+              <p> For most businesses event <br> like book fair, craft fair.</p>
+              <ul class="list-unstyle">
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">limity space access</span>
+                  </i>
+
+                </li>
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">Secuirty facility</span>
+                  </i>
+
+                </li>
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">Event support</span>
+                  </i>
+
+                </li>
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">Decoration design</span>
+                  </i>
+
+                </li>
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">Per day bill</span>
+                  </i>
+                </li>
+              </ul>
+              <div>
+                <button class="btn package-tick rounded-pill px-5 py-2 fw-bold bg-primary-subtle">choose plan</button>
+              </div>
+
+            </div>
+          </div>
+          <div class="col col-lg-3">
+            <div class="">
+              <h1>$900</h1>
+              <h3>Business fair</h3>
+              <p> For most businesses event <br> like book fair, craft fair.</p>
+              <ul class="list-unstyle">
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">limity space access</span>
+                  </i>
+
+                </li>
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">Secuirty facility</span>
+                  </i>
+
+                </li>
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">Event support</span>
+                  </i>
+
+                </li>
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">Decoration design</span>
+                  </i>
+
+                </li>
+                <li>
+                  <i class="fas fa-check package-tick p-1 rounded-circle" aria-hidden="true">
+                    <span class="ms-2">Per day bill</span>
+                  </i>
+                </li>
+              </ul>
+              <div>
+                <button class="btn package-tick rounded-pill px-5 py-2 fw-bold bg-primary-subtle">choose plan</button>
+              </div>
+
+            </div> -->
+          </div>
+
+        </div>
+      </section>
+
+      <!-- happy clients says -->
+      <section class="container ">
+
+
+      </section>
+      <!-- 
+Frequently Asked Questions -->
+      <section class="container">
+        <h1 class="text-center">Frequently Asked Questions</h1>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne">
+                    What About winter wedding?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                  aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> For the snow-loving bride and groom,
+                    Brundage Brundage Convention offers two options for winter weddings. The third floor venue at the
+                    base lodge features high ceilings and extra tall windows to bring the beauty of the outdoors inside
+                    (where it’s always warm). This space seats up to 200 guests. The second winter option is the cozy
+                    Bear’s Den at mid-mountain. . <code>.accordion-body</code>, though the transition does limit
+                    overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo">
+                    How large is the Brundage convention center
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    7 million square feet
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree">
+                    Does the Brundage convention center have a Business Center?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    Yes, there are FedEx Office business centers located in both the West and the North/South
+                    concourses. The West Concourse office is open Monday-Sunday: 8:00 AM-5:00 PM. Depending on event
+                    requirements, the North/South Concourse FedEx Offices hours are subject to change.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree">
+                    What is the Brundage convention center,s mission?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    Owned and operated by Liam Noah, the mission of the Brundage Convention Center is economic
+                    development. By hosting regional, national, and international conventions, meetings, and trade
+                    shows, the infuses local economy with new money and helps expand business opportunities.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src=" images/people.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+  </header>
+
+  <!-- footer -->
+
+  <footer>
+    <section class="bg-dark">
+      <div class="container py-4">
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-12 col-md-6 col-lg-6">
+            <p class="" style="color: white;">2022 brundage convention center. all rights resewved</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 text-light text-center text-lg-end py-3">
+            <h5>Get the app</h5>
+            <div class="py-3">
+              <a target="_blank" href="https://play.google.com/store/app/details?id=in.co.wedding.launcher&pli=1"">
+                <img src=" images/app-store.png" style="left: 0; position: relative; alt=" app store" />
+              </a>
+            </div>
+            <div>
+              <a target="_blank" href="https://play.google.com/store/app/details?id=in.co.wedding.launcher&pli=1">
+                <img src="images/app-store.png" alt="play store" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

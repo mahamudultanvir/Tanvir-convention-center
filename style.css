@@ -1,0 +1,25 @@
+.list-unstyle {
+    list-style: none;
+}
+
+.img {
+    width: 25%;
+
+}
+
+.container {
+    padding-top: 100px;
+}
+
+.section {
+    display: flex;
+}
+
+.footer {
+    background-color: blue;
+}
+/* 
+footer img {
+    position: relative !important;
+    left: 0 !important;
+} */
